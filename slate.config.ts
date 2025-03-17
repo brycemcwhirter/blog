@@ -17,7 +17,15 @@ export default defineConfig({
   socialLinks: [
     {
       icon: 'github',
-      link: 'https://github.com/SlateDesign/slate-blog',
+      link: 'https://www.github.com/brycemcwhirter',
+    },
+    {
+      icon: 'mail',
+      link: 'mailto:mcwhirterbryce@icloud.com',
+    },
+    {
+      icon: 'mail',
+      link: 'https://www.linkedin.com/in/bryce-mcwhirter-5b9330146/',
     },
   ],
 });
