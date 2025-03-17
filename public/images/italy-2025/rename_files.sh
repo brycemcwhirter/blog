@@ -17,7 +17,7 @@ for DIR in "$@"; do
     echo "Processing directory: $DIR"
 
     # Loop through JPG and MOV files in the specified directory
-    for FILE in "$DIR"/*.{JPG,MOV}; do
+    for FILE in "$DIR"/*.{JPG,MOV,PNG}; do
         # Skip if no matching files exist
         [ -e "$FILE" ] || continue
 
